@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'shell_0x03'
+git commit -m 'hello world c'
 git push
