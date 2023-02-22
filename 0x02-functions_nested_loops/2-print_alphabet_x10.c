@@ -1,9 +1,7 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - check the code.
+ * print_alphabet_x10 
  *
- * Return: Always 0.
  */
 char ch;
 int i;
@@ -15,9 +13,4 @@ for (ch = 'a'; ch <= 'z'; ch++)
 putchar(ch);
 putchar('\n');
 }
-}
-int main(void)
-{
-    print_alphabet_x10();
-    return (0);
 }
