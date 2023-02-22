@@ -10,6 +10,8 @@ int f;
 if (n < 0)
 n = -n;
 f = n % 10;
+if (f < 0)
+f = -f;
 _putchar(f + '0');
 return (f);
 }
