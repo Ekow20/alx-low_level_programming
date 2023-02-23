@@ -14,6 +14,7 @@ while (l < 10)
 int a =(f * l); 
 if (a < 10)
 {
+if (a != 0)
 _putchar(' ');
 _putchar(a + '0');
 }
