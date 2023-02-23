@@ -11,7 +11,7 @@ while (h < 24)
 int m = 0;
 while (m < 60)
 {
-putchar((h / 10) + '0');
+_putchar((h / 10) + '0');
 _putchar((h % 10) + '0');
 _putchar(':');
 _putchar((m / 10) + '0');
