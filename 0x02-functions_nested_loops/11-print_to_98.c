@@ -19,7 +19,8 @@ printf(", ");
 else
 printf("\n");
 }
-}else
+}
+else
 {
 for (i = n; i > 97; i--)
 {

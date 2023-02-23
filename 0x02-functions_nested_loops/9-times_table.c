@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include "main.h"
 /**
-* jack_bauer - prints every minute of the day of Jack Bauer
-* starting from 00:00 to 23:59
+* times_table - prints the 9 times table, starting with 0
 */
-void jack_bauer(void)
+
+void times_table(void)
 {
 int f = 0;
 while (f < 10)
@@ -13,17 +12,24 @@ int l = 0;
 while (l < 10)
 {
 int a =(f*l); 
-printf("%d",a );
-if(l!=9)
-printf(", ");
+_putchar(a + '0');
+if (l != 9)
+{
+if (a >= 10)
+{
+_putchar(",");
+_putchar(" ");
+}
+else
+{
+_putchar(",");
+_putchar(" ");
+_putchar(" ");
+}
+}
 l++;
 }
 f++;
-printf("\n");
+_putchar('\n');
 }
-}
-int main(int argc, char const *argv[])
-{
-jack_bauer();    
-    return 0;
 }
