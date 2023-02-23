@@ -13,7 +13,10 @@ while (l < 10)
 {
 int a =(f * l); 
 if (a < 10)
+{
+_putchar(' ');
 _putchar(a + '0');
+}
 else
 {
 _putchar((a / 10) + '0');
