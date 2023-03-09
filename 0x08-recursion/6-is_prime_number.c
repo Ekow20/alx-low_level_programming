@@ -1,6 +1,6 @@
 #include "main.h"
 #include <math.h>
-
+int is_prime_helper(int n, int i);
 /**
  * is_prime_helper - calculates if a number is prime recursively
  * @n: number to evaluate
