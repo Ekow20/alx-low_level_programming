@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'even more pointers arrays'
+git commit -m 'recursion'
 git push
