@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'recursion'
+git commit -m 'static lib'
 git push
