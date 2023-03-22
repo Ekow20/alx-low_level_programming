@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'struct typedef'
+git commit -m 'func pointers'
 git push
