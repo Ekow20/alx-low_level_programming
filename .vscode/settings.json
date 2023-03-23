@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "main.h": "c"
+        "main.h": "c",
+        "stdalign.h": "c"
     },
     "editor.formatOnSave": false
 }
