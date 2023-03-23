@@ -14,7 +14,7 @@ if (separator==NULL)
 return;
 va_list args;
 va_start(args, n);
-int i;
+unsigned int i;
 for (i = 0; i < n; i++)
 {
 int x = va_arg(args, int);

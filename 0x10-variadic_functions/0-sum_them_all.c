@@ -14,8 +14,8 @@ return (0);
 va_list args;
 va_start(args, n);
 
-int sum = 0;
-int i;
+unsigned int sum = 0;
+unsigned int i;
 for(i=0; i < n; i++)
 {
 int x = va_arg(args, int);
