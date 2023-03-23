@@ -13,7 +13,7 @@ va_list args;
 unsigned int sum = 0;
 unsigned int i;
 va_start(args, n);
-for(i=0; i < n; i++)
+for(i = 0; i < n; i++)
 {
 int x = va_arg(args, int);
 sum += x;
