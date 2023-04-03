@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'variadic func'
+git commit -m 'singly list'
 git push
