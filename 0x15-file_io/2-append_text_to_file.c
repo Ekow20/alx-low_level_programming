@@ -6,9 +6,9 @@
  * @text_content: The string to add to the end of the file.
  *
  * Return: If the function succeeds, the number of bytes written to the file.
- *         If filename is NULL, -1 is returned and errno is set to EINVAL.
- *         If the file cannot be opened or written to, -1 is returned and errno
- *         is set to the appropriate error code.
+ *If filename is NULL, -1 is returned and errno is set to EINVAL.
+ *If the file cannot be opened or written to, -1 is returned and errno
+ *is set to the appropriate error code.
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
