@@ -25,7 +25,6 @@ else if (counter)
 _putchar('0');
 }
 }
-
 if (!counter)
 {
 _putchar('0');
